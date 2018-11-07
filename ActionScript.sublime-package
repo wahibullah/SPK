@@ -1,0 +1,88 @@
+
+nama = input("Masukkan tipe motor dan tahun = ")
+body motor = 0
+mesin motor = 0
+klm motor = 0
+keputusan = 0
+
+# file = open('data.txt', 'r+')
+# .write
+
+def getBody():
+	choice = input("Hallo " + nama + ", Apakah body mtr baik ?\n 2.Sedang\n 4.Kurang\n 6.Baik/n Jawaban = ")
+	if choice == "2":
+		body = 2
+		mesin = 3
+      klm = 17653
+      getBeli()
+   
+   elif choice =="4":
+      body = 6
+      mesin = 5
+      klm = 35470
+      getBeli()
+   
+   elif choice =="6":
+      body = 6
+      mesin = 5
+      klm = 35470
+      getBeli()
+
+def getMesin():
+ 	choice = input("Apakah mesin motor baik ?\n 3.Bagus\n 5.Stabil\n 7.Ada bunyi\n Jawaban = ")
+ 	if choice == "3":
+ 		body = 2
+      mesin = 
+      klm = 
+      getBeli()
+
+ 	elif choice == "5":
+ 		body = 2
+      mesin = 3
+      klm = 17653
+      getBeli()
+
+   elif choice =="7":
+      body = 6
+      mesin = 5
+      klm = 35470
+      getBeli()
+   
+def getKLM():
+   	choice = input("Apakah KLM baik ?\n 9. >20000\n 10. <20000 \n Jawaban = ")
+   	if choice == "9":
+         body = 6
+         mesin = 5
+         klm = 35470
+         getBeli()
+
+
+   	elif choicelif choice =="10":
+         body = 6
+         mesin = 5
+         klm = 35470
+         getBeli()
+
+       
+
+
+
+def Beli():
+
+ 	if Body >=5:
+ 		print("Selamat" + nama + ", ")
+ 	elif Mesin == 4 :
+ 		print ("" + nama + " ")
+ 	elif KLM ==3 :
+ 		print("" + nama + " ")
+ 	
+   
+      # print(echo <br>)
+      # echo <br>
+
+
+		
+
+
+get()
+# Beli()
